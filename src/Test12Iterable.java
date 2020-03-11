@@ -10,9 +10,15 @@ public class Test12Iterable {
         list.add(3);
 
         Iterator<Integer> iterator = list.iterator();
+//        int idx = 0;
         while (iterator.hasNext()) {
+//            if(idx == 1)
+//            iterator.remove();
             System.out.println(iterator.next());
+//            idx++;
         }
+
+        System.out.println(list);
 
         for (Integer x : list) {
             System.out.println(x);
